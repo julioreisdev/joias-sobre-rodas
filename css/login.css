@@ -16,3 +16,9 @@
     font-size: 1.25rem;
     font-weight: bold;
 }
+
+@media (min-width:0) and (max-width:768px) {
+    .login {
+        width: 80%;
+    }
+}
