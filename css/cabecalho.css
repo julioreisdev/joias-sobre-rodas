@@ -1,0 +1,20 @@
+.conjunto-logo {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-background {
+    background-color: #084B8A;
+}
+
+.conjunto-logo__titulo {
+    margin: 0 0 0 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#img-logo {
+    border-radius: 50%;
+}

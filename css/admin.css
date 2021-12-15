@@ -1,0 +1,66 @@
+.pagina-admin {
+    background-color: #084B8A;
+}
+
+.caixa {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px black;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.titulo-form-admin {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 2rem 0;
+}
+
+label {
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 0 0.25rem 0;
+}
+
+input, textarea {
+    width: 300px;
+    margin: 0 0 1rem 0;
+}
+
+.add {
+    background-color: darkgreen;
+}
+
+.update {
+    background-color: darkgoldenrod;
+}
+
+.del {
+    background-color: darkred;
+}
+
+.input-submit {
+    padding: 0.5rem;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+@media (min-width:0) and (max-width:768px) {
+    .caixa {
+        width: 80%;
+    }
+
+    input, textarea {
+        width: 200px;
+    }
+}

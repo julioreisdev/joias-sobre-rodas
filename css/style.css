@@ -1,0 +1,10 @@
+.pagina {
+    background-image: url('../img/background.jpg');
+}
+
+.img-fundo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

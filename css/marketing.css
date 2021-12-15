@@ -1,0 +1,10 @@
+.marketing {
+    width: 768px;
+    margin: 2rem auto;
+}
+
+@media (min-width:0) and (max-width:768px) {
+    .marketing {
+        width: 100%;
+    }
+}
