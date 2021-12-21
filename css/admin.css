@@ -1,5 +1,21 @@
+.cabecalho-admin {
+    background-color: #fff;
+    color: #084B8A;
+    box-shadow: 0 1px 5px black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.titulo-admin {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
 .pagina-admin {
     background-color: #084B8A;
+    padding: 30px 0 0 0;
 }
 
 .caixa {
@@ -7,7 +23,7 @@
     border-radius: 3px;
     box-shadow: 0 0 5px black;
     padding: 1rem;
-    margin: 1rem auto;
+    margin: 2rem auto;
     width: 40%;
     display: flex;
     flex-direction: column;
