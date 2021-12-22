@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .produtos-titulo {
@@ -25,7 +24,7 @@
 
 .nome-produto {
     font-size: 1.25rem;
-    color: teal;
+    color: #084B8A;
 }
 
 .img-produto {
@@ -39,7 +38,7 @@
 
 .preco-produto {
     font-size: 1rem;
-    color: teal;
+    color: #084B8A;
     margin: 0.5rem 0 1rem 0;
 }
 
@@ -49,4 +48,11 @@
 
 .descricao-produto {
     font-size: 0.85rem;
+}
+
+@media (min-width:0) and (max-width:768px) {
+    .lista-produtos {
+        flex-direction: column;
+        align-items: center;
+    }
 }
