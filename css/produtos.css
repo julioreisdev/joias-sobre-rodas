@@ -59,4 +59,7 @@
     .produto {
         width: 80%;
     }
+    .img-produto {
+        width: 100%;
+    }
 }
