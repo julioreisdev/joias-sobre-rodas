@@ -13,6 +13,42 @@
     font-weight: bold;
 }
 
+/*  */
+
+.conteudo-admin {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.produtos-cadastrados {
+    width: 90%;
+    height: 400px;
+    overflow-y: scroll;
+    border-bottom: 10px solid #25415a;
+    border-top: 10px solid #25415a;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border-radius: 3px;
+    margin: 2rem auto;
+}
+
+.lista-produtos-cadastrados__item {
+    font-family: monospace;
+    border-bottom: 1px solid gray;
+}
+
+.caracteristica-produto-cadastrado {
+    font-weight: bold;
+}
+
+.produtos-cadastrados__titulo {
+    background-color: #25415a;
+    padding-bottom: 0.5rem;
+    color: #fff;
+}
+
+/*  */
+
 .pagina-admin {
     background-color: #084B8A;
     padding: 30px 0 0 0;
@@ -24,13 +60,13 @@
     box-shadow: 0 0 5px black;
     padding: 1rem;
     margin: 2rem auto;
-    width: 40%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.titulo-form-admin {
+.titulo-form-admin, .produtos-cadastrados__titulo {
     font-size: 2rem;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,7 +110,11 @@ input, textarea {
 }
 
 @media (min-width:0) and (max-width:768px) {
-    .caixa {
+    .conteudo-admin {
+        display: block;
+    }
+
+    .caixa, .produtos-cadastrados {
         width: 80%;
     }
 
