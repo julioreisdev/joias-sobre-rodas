@@ -1,7 +1,7 @@
 .cabecalho{
     width: 100%;
     background-color: #084B8A;
-    padding: 1rem 0;
+    padding: 0 0 0 1rem;
 }
 
 .cabecalho-conteudo {
@@ -11,7 +11,7 @@
 }
 
 #img-logo {
-    width: 18vw;
-    height: 18vw;
+    width: 16vw;
+    height: 16vw;
     border-radius: 50%;
 }
