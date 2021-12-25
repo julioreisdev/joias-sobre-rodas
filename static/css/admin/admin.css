@@ -13,12 +13,17 @@
     font-weight: bold;
 }
 
-/*  */
+.pagina-admin {
+    background-color: #084B8A;
+    padding: 30px 0 0 0;
+}
 
 .conteudo-admin {
     display: grid;
     grid-template-columns: 40% 60%;
 }
+
+/*  */
 
 .produtos-cadastrados {
     width: 90%;
@@ -32,27 +37,38 @@
     margin: 2rem auto;
 }
 
-.lista-produtos-cadastrados__item {
-    font-family: monospace;
-    border-bottom: 1px solid gray;
-}
-
-.caracteristica-produto-cadastrado {
-    font-weight: bold;
-}
-
 .produtos-cadastrados__titulo {
     background-color: #25415a;
     padding-bottom: 0.5rem;
     color: #fff;
 }
 
+.tabela-produtos-cadastrados {
+    width: 100%;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.tabela-produtos-cadastrados__linha {
+    background-color: gainsboro;
+}
+
+.tabela-produtos-cadastrados__linha--cabecalho {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background-color: #25415a;
+    position: sticky;
+    top: 0;
+}
+
+.tabela-produtos-cadastrados__linha--item {
+    text-align: center;
+    border: 1px solid gray;
+}
+
 /*  */
 
-.pagina-admin {
-    background-color: #084B8A;
-    padding: 30px 0 0 0;
-}
 
 .caixa {
     background-color: #fff;
